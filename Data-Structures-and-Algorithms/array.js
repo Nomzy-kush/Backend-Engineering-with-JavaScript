@@ -201,7 +201,7 @@ const find2Numbers = (numList, target) => {
     for(let i = 0; i < numList.length; i++) {
          // for each number check the rest of the list
          for (let j = i + 1; j < numList.length; j++) {
-            // If they add up to target
+            // If the current number and the one we are checking, add up to the target number, return their indexes
             if (numList[i] + numList[j] === target) {
                 return [i, j]
             }
