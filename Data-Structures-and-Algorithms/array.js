@@ -203,11 +203,11 @@ const find2Numbers = (numList, target) => {
          for (let j = i + 1; j < numList.length; j++) {
             // If they add up to target
             if (numList[i] + numList[j] === target) {
-
+                return [i, j]
             }
          }
     }
-    console.log(num1[index], num2[index])
+    console.log(find2Numbers(numList[i], numList[j]), )
 
     return 
 }
