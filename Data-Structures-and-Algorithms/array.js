@@ -195,9 +195,6 @@
 // tell which positions(index) those two numbers are at on the list. 
 
 
-const numberList = [2, 7, 11, 15];
-const targetNumber = 9;
-
 
 const find2Numbers = (numList, target) => {
     // loop through each number
@@ -206,7 +203,7 @@ const find2Numbers = (numList, target) => {
          for (let j = i + 1; j < numList.length; j++) {
             // If they add up to target
             if (numList[i] + numList[j] === target) {
-                
+
             }
          }
     }
