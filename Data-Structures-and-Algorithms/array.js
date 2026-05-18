@@ -207,8 +207,10 @@ const find2Numbers = (numList, target) => {
             }
          }
     }
-    console.log(find2Numbers(numList[i], numList[j]), )
-
-    return 
+    return [];
 }
+
+
+const res = find2Numbers([2, 7, 25, 4], 9)
+
 
