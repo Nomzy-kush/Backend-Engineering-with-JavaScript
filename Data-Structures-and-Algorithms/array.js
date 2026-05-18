@@ -138,13 +138,80 @@
 
 
 
-MaxProfit
+// MaxProfit
 
-const stockPrices = [7,1,5,3,6,4];
+// const prices = [7,1,5,3,6,4];
+
+// const maxProfit = (prices) => {
+
+//     let minPrice = prices[0];
+//     let maxProfit = 0;
 
 
+//     for (let i = 1; i < prices.length; i++){
+//         const currentPrice = prices[i]
+        
+//         // update minimum price if the lower price is found
+//      minPrice = Math.min(minPrice, currentPrice);
+
+//     const potentialProfit = currentPrice - minPrice
+//     maxProfit = Math.max(maxProfit, potentialProfit);
+//     console.log(maxProfit);
+//     }
+
+//     return maxProfit;
+// }
+
+// const profit = maxProfit(prices);
+
+// console.log("Maximum profit: ", profit)
 
 
+// Array Chunks
+// a function that takes an array and chunk size as Input. The funtion should return a new array where the originnal array is split into chunks of the specified size.
+
+// chunk([1,2,3,4,5,6,7,8], 3) [[1,2,3], [4,5,6], [7,8]]
+// chunkArray([1,2,3,4,5], 2) Output should be [[1,2], [3,4]]
+
+// const arrayChunk = (arr, size) => {
+//     const array1 = [];
+    
+
+//     for (let i = 0; i < arr.length; i+=size) {
+//         array1.push(arr.slice(i, i + size));
+//     }
+
+//     return array1
+// }
+
+// console.log(arrayChunk([1,2,3,4,5,6,7,8], 3)); 
+// console.log(arrayChunk([1,2,3,4,5], 2)); 
 
 
+// Two Sum
+
+// you have a list of numbers and a target number, 
+// find 2 numbers in that list that add up to target number
+// tell which positions(index) those two numbers are at on the list. 
+
+
+const numberList = [2, 7, 11, 15];
+const targetNumber = 9;
+
+
+const find2Numbers = (numList, target) => {
+    // loop through each number
+    for(let i = 0; i < numList.length; i++) {
+         // Check against every other number
+         for (let j = i + 1; j < numList.length; j++) {
+            // If they add up to target
+            if (numList[i] + numList[j] === target) {
+                
+            }
+         }
+    }
+    console.log(num1[index], num2[index])
+
+    return 
+}
 
