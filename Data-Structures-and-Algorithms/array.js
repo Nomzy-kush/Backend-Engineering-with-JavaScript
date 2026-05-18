@@ -199,7 +199,7 @@
 const find2Numbers = (numList, target) => {
     // loop through each number
     for(let i = 0; i < numList.length; i++) {
-         // Check against every other number
+         // for each number check the rest of the list
          for (let j = i + 1; j < numList.length; j++) {
             // If they add up to target
             if (numList[i] + numList[j] === target) {
