@@ -211,6 +211,6 @@ const find2Numbers = (numList, target) => {
 }
 
 
-const res = find2Numbers([2, 7, 25, 4], 9)
+console.log(find2Numbers([2, 7, 25, 4], 9))
 
 
