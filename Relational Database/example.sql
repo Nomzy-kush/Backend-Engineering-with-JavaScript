@@ -206,6 +206,6 @@ ON employee.department_id = department.id;
 
 
 -- Another type of JOINS
-
+1. I
 
 
