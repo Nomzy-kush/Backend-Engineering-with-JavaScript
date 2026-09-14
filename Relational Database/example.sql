@@ -192,7 +192,7 @@ ON product.product_id = review.product_id,
 
 Here's the general syntax
 
-DELECT column1, 
+SELECT column1, column2 FROM product  
 
 
 
