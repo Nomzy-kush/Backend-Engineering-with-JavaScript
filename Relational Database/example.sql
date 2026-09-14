@@ -192,7 +192,12 @@ ON product.product_id = review.product_id,
 
 -- You can also use the AS clause to rename the result in the concacted table 
 
-SELECT employee.name AS employee_name  
+SELECT employee.name AS employee_name 
+FROM employee 
+JOIN department 
+ON employee.department_id = department.id  
+
+
 
 
 
