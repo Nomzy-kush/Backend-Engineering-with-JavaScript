@@ -182,8 +182,17 @@ CREATE TABLE child_table_name (
 
 
 -- JOIN data from two related tables
-SELECT name,
 
+-- Uses the JOIN...ON clause to join data from two tables
+
+SELECT name, review_text 
+FROM product 
+JOIN review 
+ON product.product_id = review.product_id,
+
+Here's the general syntax
+
+DELECT column1, 
 
 
 
