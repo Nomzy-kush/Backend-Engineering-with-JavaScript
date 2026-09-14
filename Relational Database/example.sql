@@ -188,17 +188,24 @@ CREATE TABLE child_table_name (
 SELECT name, review_text 
 FROM product 
 JOIN review 
-ON product.product_id = review.product_id,
+ON product.product_id = review.product_id;
+
+-- here's the general syntax 
+
+SELECT column1, column 2
+FROM table1
+JOIN table2
+ON table1.column = table2.column;
 
 -- You can also use the AS clause to rename the result in the concacted table 
 
 SELECT employee.name AS employee_name 
 FROM employee 
 JOIN department 
-ON employee.department_id = department.id  
+ON employee.department_id = department.id;
 
 
-
+-- Another type of JOINS
 
 
 
