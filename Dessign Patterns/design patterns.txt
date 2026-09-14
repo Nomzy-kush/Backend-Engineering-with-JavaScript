@@ -1,0 +1,21 @@
+There are different types of design patterns in software engineering 
+
+
+Creational patterns - how objects are created
+
+1. Singleton: A type of object that can only be instantiated once
+
+Example 
+
+class Settings {
+    
+}
+
+
+
+Structural patterns - how objects relate to each other 
+Behavioral patterns - how objects communicate with each other 
+
+
+
+
