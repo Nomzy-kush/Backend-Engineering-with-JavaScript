@@ -211,4 +211,6 @@ ON employee.department_id = department.id;
 -- 3. RIGHT JOIN - All the right rows then the matching ones with the left 
 -- 4. FULL OUTER JOIN - All the rows in both tables including the non matching rows
 
+-- These methods can lead to Null and you have to be careful how you handle null values
+
 
