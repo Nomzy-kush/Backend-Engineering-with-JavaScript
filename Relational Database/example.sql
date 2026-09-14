@@ -213,4 +213,5 @@ ON employee.department_id = department.id;
 
 -- These methods can lead to Null and you have to be careful how you handle null values
 
+You can use the WHERE clause to join two related tables.
 
