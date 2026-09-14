@@ -190,9 +190,9 @@ FROM product
 JOIN review 
 ON product.product_id = review.product_id,
 
-Here's the general syntax
+-- You can also use the AS clause to rename the result in the concacted table 
 
-SELECT column1, column2 FROM product  
+SELECT employee.name AS employee_name  
 
 
 
