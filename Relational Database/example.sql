@@ -206,6 +206,9 @@ ON employee.department_id = department.id;
 
 
 -- Another type of JOINS
-1. I
+1. INNER JOIN - just the similar columns
+2. LEFT JOIN - All the left columns then the similar ones with the right as well
+3. RIGHT JOIN - All the right columns then the similar ones with the left 
+4. FULL OUTER JOIN - All the col
 
 
