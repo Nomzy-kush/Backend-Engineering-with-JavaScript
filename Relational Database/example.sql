@@ -290,7 +290,7 @@ CHAR(2) - 2 Bytes (2 characters)
 
 -- *VARCHAR: Stores Variable-length character strings with a known length.
 
-VARCHAR(30) - Maximum Length
+VARCHAR(30) - Maximum Length for the column
  =
 
 -- *Text: Stores character strings of virtually unlimited length.
