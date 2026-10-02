@@ -323,7 +323,11 @@ BIGINT --Signed(-2^63 to 2^63-1) --Unsigned(0 to 2^64)
 -- Precision is the number of digits in a decimal
 -- Scale is the number of digits after the decimal point.
 
+FLOAT --32 bit, has about 7 significant digits of precision
+DOUBLE -- 64 bit, as about 15 - 17 siginificant digits of precision.
+
 -- Fixed poimt numbers 
+
 
 
 
