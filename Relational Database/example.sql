@@ -310,10 +310,16 @@ comments, articles, etc
 -- Whole numbers 
 -- Space efficient and easy to compare but can't represent anything with a decimal 
 
-TINYINT --Signed(-128 to 127)
+TINYINT --Signed(-128 to 127) --Unsigned(0 to 255)
+SMALLINT --Signed(-32,768 to 32, 767) --Unsigned(0 to 65, 535)
+INT --Signed(-2,147,483,648 to 2,147,483,647(~2 billion)) --Unsigned(0 to 4,294,967,295(~4 billion))
+BIGINT --Signed(-2^63 to 2^63-1) --Unsigned(0 to 2^64)
+
+-- IDs, counts, ages, or any values that can't be farctional
 
 
 -- Floating point numbers 
+
 -- Fixed poimt numbers 
 
 
