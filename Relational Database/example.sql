@@ -213,5 +213,70 @@ ON employee.department_id = department.id;
 
 -- These methods can lead to Null and you have to be careful how you handle null values
 
-You can use the WHERE clause to join two related tables.
+-- You can use the WHERE clause to join two related tables.
+
+
+
+-- Goals of database design
+-- 1. data consistency 
+-- 2. maintainabilty and ease of use 
+-- 3. data security
+-- 4. scalability and flexibility 
+
+
+-- Database design lifecycle 
+-- 1. Requirement gathering
+-- 2. Analysis and design
+    -- Identify the goals of the database 
+    -- Identify subjects, characteristics and relationships 
+    -- Data modeling
+    -- Normalization - breaking down a table to smaller tables
+-- 3. Implementation/integrationand testing
+    -- Functionality
+    -- Performance
+    -- Security
+
+-- How to turn Real-World ideas into DataBase tables 
+
+-- Identidy subjects (they can turn into tables in the DB)
+-- Identify charcteristics(they can turn into columns in the DB)
+
+-- Entities and Attributes 
+-- An entity is an object or concept that can be described by many attributes 
+-- Entity(A conceptual idea) is implemented as  table 
+-- Table (A conceptual idea) is implemented as column
+
+-- Naming convention 
+-- Snake case: first_name
+-- Camel case: firstName
+-- Pascal case: FirstName 
+-- Upper case: FIRST_NAME
+
+
+-- How to pick the right primary key 
+--  A primary key refers to one or more attributes that can be used to identify an individual row
+
+-- How to pick the primary key for a table 
+
+-- 1. Pick the best candidate key as the primary key
+--    A candidate key is the smallest possible combination of attributes that can uniquely identify a row in a table 
+-- 
+-- 2. create new attribute to serve as the primary key 
+
+-- Use these criteria to pick a primary key 
+
+-- The primary key has to be:
+
+-- 1. unique 
+-- 2. non-empty(null)
+-- 3. stable
+-- 4. simple
+-- 5. short
+-- 6. familiar
+-- 7. prevents redundancy 
+
+
+
+
+
 
