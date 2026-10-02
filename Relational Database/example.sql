@@ -346,7 +346,7 @@ DATETIME: --Both the date and time in your local time (e.g. 2025-06-09 14:30:00)
 --Use when you need both date and time, but don't need automatic time zone.
 
 TIMESTAMP: --Both the date and time tied to time zones(e.g. 2025-06-09 14:30:00 PST)
--- Use when you need Time zone along with Date and Time 
+-- Use when you need a precise moment in time, especially when working across different tume zones and servers...Also automatic time zone handling
 
 DATETIME: 1000 to 9999
 TIMESTAMP: 1970 to 2038
