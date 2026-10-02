@@ -336,7 +336,7 @@ NUMERIC(6,4)
 -- DATE AND TIME DATA TYPES
 
 DATE: --Just the calendar date - year, month, and day(e.g. 2025-06-09)
-
+--Use when you only need the calendar date, not the time.
 
 
 
