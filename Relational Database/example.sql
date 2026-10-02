@@ -291,7 +291,9 @@ CHAR(2) - 2 Bytes (2 characters)
 -- *VARCHAR: Stores Variable-length character strings with a known length.
 
 VARCHAR(30) - Maximum Length for the column
- =
+-- Rule of Thumb 
+-- Under 255 characters: Almost always VARCHAR
+-- 255-1,000 Charcters : Usually still VARCHAR unless you expect significant growth
 
 -- *Text: Stores character strings of virtually unlimited length.
 
