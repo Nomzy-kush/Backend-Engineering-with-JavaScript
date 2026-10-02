@@ -331,7 +331,7 @@ DOUBLE -- 64 bit, as about 15 - 17 siginificant digits of precision.
 DECIMAL(6,4)
 NUMERIC(6,4)
 
--- When you need to store numbers exactly as you define them, down to the 
+-- When you need to store numbers exactly as you define them, down to the right number of decimal places
 
 
 
