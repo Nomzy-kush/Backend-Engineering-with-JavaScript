@@ -338,9 +338,10 @@ NUMERIC(6,4)
 DATE: --Just the calendar date - year, month, and day(e.g. 2025-06-09)
 --Use when you only need the calendar date, not the time.
 
-
-
 TIME: --Only the time of the day - hours, minutes, seconds (e.g. 14:30:00)
+-- Use when you only need the time of the day not the date. 
+
+
 DATETIME: --Both the date and time in your local time (e.g. 2025-06-09 14:30:00)
 TIMESTAMP: --Both the date and time tied to time zones(e.g. 2025-06-09 14:30:00 PST)
 
