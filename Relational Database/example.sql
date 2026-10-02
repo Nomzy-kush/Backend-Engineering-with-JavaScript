@@ -279,7 +279,7 @@ ON employee.department_id = department.id;
 
 -- * CHAR: Stores character strings of a fixed length
 -- *VARCHAR: Stores Variable-length character strings with a known length.
--- *Text: Stores character strings of virtually 
+-- *Text: Stores character strings of virtually unlimited length.
 
 
 
