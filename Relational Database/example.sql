@@ -333,6 +333,16 @@ NUMERIC(6,4)
 
 -- When you need to store numbers exactly as you define them, down to the right number of decimal places
 
+-- DATE AND TIME DATA TYPES
+
+DATE: --Just the calendar date - year, month, and day(e.g. 2025-06-09)
+
+
+
+
+TIME: --Only the time of the day - hours, minutes, seconds (e.g. 14:30:00)
+DATETIME: --Both the date and time in your local time (e.g. 2025-06-09 14:30:00)
+TIMESTAMP: --Both the date and time tied to time zones(e.g. 2025-06-09 14:30:00 PST)
 
 
 
