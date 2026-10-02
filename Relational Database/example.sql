@@ -278,8 +278,22 @@ ON employee.department_id = department.id;
 -- String data types
 
 -- * CHAR: Stores character strings of a fixed length
+
+CHAR(2) - 2 Bytes (2 characters)
+
+Strings of uniform length
+-- Country codes (US, CA, UK)
+-- Currency code(USD, EUR, NGA)
+-- Airport codes (LAX, JFK, LHR)
+-- Lnaguage Codes (EN, FR ES)
+
+
+
+
 -- *VARCHAR: Stores Variable-length character strings with a known length.
 -- *Text: Stores character strings of virtually unlimited length.
+
+
 
 
 
