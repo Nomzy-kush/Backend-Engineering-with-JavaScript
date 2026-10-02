@@ -308,6 +308,11 @@ comments, articles, etc
 
 
 -- Whole numbers 
+-- Space efficient and easy to compare but can't represent anything with a decimal 
+
+TINYINT --Signed(-128 to 127)
+
+
 -- Floating point numbers 
 -- Fixed poimt numbers 
 
