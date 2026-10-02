@@ -328,6 +328,7 @@ DOUBLE -- 64 bit, as about 15 - 17 siginificant digits of precision.
 
 -- Fixed poimt numbers 
 -- Exact decimals for precise values that require full accuracy
+DECIMAL(6,4)
 
 
 
