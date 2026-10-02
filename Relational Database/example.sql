@@ -327,7 +327,7 @@ FLOAT --32 bit, has about 7 significant digits of precision.
 DOUBLE -- 64 bit, as about 15 - 17 siginificant digits of precision.
 
 -- Fixed poimt numbers 
-
+-- Exact decimals for precise values that require full accuracy
 
 
 
