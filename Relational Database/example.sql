@@ -275,7 +275,11 @@ ON employee.department_id = department.id;
 -- 6. familiar
 -- 7. prevents redundancy 
 
+-- String data types
 
+-- * CHAR: Stores character strings of a fixed length
+-- *VARCHAR: Stores Variable-length character strings with a known length.
+-- *Text: Stores character strings of virtually 
 
 
 
