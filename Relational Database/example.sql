@@ -300,6 +300,17 @@ VARCHAR(30) - Maximum Length for the column
 -- *Text: Stores character strings of virtually unlimited length.
 TEXT
 
+comments, articles, etc
+
+
+-- Numeric data types 
+
+
+
+-- Whole numbers 
+-- Floating point numbers 
+-- Fixed poimt numbers 
+
 
 
 
