@@ -319,6 +319,8 @@ BIGINT --Signed(-2^63 to 2^63-1) --Unsigned(0 to 2^64)
 
 
 -- Floating point numbers 
+-- Decimals that can tolerate some level of approximation
+
 
 -- Fixed poimt numbers 
 
