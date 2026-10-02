@@ -320,7 +320,8 @@ BIGINT --Signed(-2^63 to 2^63-1) --Unsigned(0 to 2^64)
 
 -- Floating point numbers 
 -- Decimals that can tolerate some level of approximation
-
+-- Precision is the number of digits in a decimal
+-- Scale is the number of digits after the decimal point.
 
 -- Fixed poimt numbers 
 
