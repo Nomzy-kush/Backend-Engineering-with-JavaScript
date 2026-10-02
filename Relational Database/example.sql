@@ -295,7 +295,10 @@ VARCHAR(30) - Maximum Length for the column
 -- Under 255 characters: Almost always VARCHAR
 -- 255-1,000 Charcters : Usually still VARCHAR unless you expect significant growth
 
+--Name, email address, 
+
 -- *Text: Stores character strings of virtually unlimited length.
+TEXT
 
 
 
