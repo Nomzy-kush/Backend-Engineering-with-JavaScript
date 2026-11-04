@@ -351,6 +351,7 @@ TIMESTAMP: --Both the date and time tied to time zones(e.g. 2025-06-09 14:30:00 
 DATETIME: 1000 to 9999
 TIMESTAMP: 1970 to 2038
 
+Entity-relationship diagram
 
 
 
